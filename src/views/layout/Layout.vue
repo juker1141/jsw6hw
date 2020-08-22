@@ -4,8 +4,8 @@
     <router-link to="/about">About</router-link>|
     <router-link to="/products">Products</router-link>|
     <router-link to="/cart">Cart</router-link>|
-    <router-link to="/admin">Admin</router-link>
+    <router-link to="/login">Admin</router-link>
     <hr />
-    <router-view />
+    <router-view class="container" />
   </div>
 </template>

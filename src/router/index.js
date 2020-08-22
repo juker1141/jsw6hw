@@ -37,6 +37,10 @@ const routes = [
         path: '/cart',
         component: () => import('../views/layout/Cart.vue'),
       },
+      {
+        path: '/login',
+        component: () => import('../views/layout/Login.vue'),
+      },
     ],
   },
   {

@@ -3,7 +3,7 @@
     <h2>單一產品頁面</h2>
     <div class="w-100 d-flex justify-content-center mb-4">
       <div class="w-25">
-        <img class="img-fluid" :src="product.imageUrl[0]" alt />
+        <img :src="product.imageUrl[0]" alt class="img-fluid" />
       </div>
     </div>
     <h3>{{ product.title }}</h3>

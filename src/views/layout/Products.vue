@@ -4,9 +4,9 @@
     <div class="container">
       <div class="card-deck">
         <div class="row">
-          <div class="col-4 mb-3" v-for="item in products" :key="item.id">
+          <div :key="item.id" class="col-4 mb-3" v-for="item in products">
             <div class="card">
-              <img :src="item.imageUrl[0]" class="card-img-top" alt="..." />
+              <img :src="item.imageUrl" alt="..." class="card-img-top" />
               <div class="card-body">
                 <h5 class="card-title">{{ item.title }}</h5>
                 <div class="card-text">
